@@ -1,5 +1,5 @@
 Amigo secreto
-(assets/amigo-secreto.png)
+
 Index
 1) De que trata el proyecto
 2) en qué estado se encuentra
