@@ -14,7 +14,7 @@ function agregarAmigo() {
     }
 }
 
-// funsion para mostrar amigos de la lista
+// funcion para mostrar amigos de la lista
 function mostrarAmigos() {
     let lista = document.getElementById('listaAmigos');
     lista.innerHTML = ""; // limpiar lista
@@ -32,6 +32,6 @@ function sortearAmigo() {
         let indice = Math.floor(Math.random() * amigos.length);
         let amigoSorteado = amigos[indice];
         let resultado = document.getElementById('resultado');
-        resultado.innerHTML = "<li>🎉 El amigo secreto es: " + amigoSorteado + "</li>";
+        resultado.innerHTML = "<li>El amigo secreto es: " + amigoSorteado + "</li>";
     }
 }
